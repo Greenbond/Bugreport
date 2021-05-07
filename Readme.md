@@ -1,6 +1,7 @@
 Hello, This Project is made to report a suspicious bug to Django.
 
 In the admin page the editable column will dupulicate when that field`s primary key is set to True.
+if you set the primary key to False the dupulicate will not happen.
 
 Codes
 ```py
@@ -28,5 +29,5 @@ class PartAdmin(admin.ModelAdmin):
 
 admin.site.register(Parts, PartAdmin)
 ```
-This is the screenshot for it
+This is the screenshot for it.
 <img width="1585" alt="スクリーンショット 2021-05-07 18 54 46" src="https://user-images.githubusercontent.com/66260097/117432937-e0065080-af65-11eb-9f69-a3046ee579e4.png">
