@@ -14,8 +14,8 @@ Password == demo
 -------------------
 Versions
 
-Python 3.8.8
-Django 3.2.2
+Python == 3.8.8
+Django == 3.2.2
 -------------------
 
 # models.py
