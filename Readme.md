@@ -4,10 +4,11 @@ In the admin page the editable column will dupulicate when that field`s primary 
 if you set the primary key to False the dupulicate will not happen.
 
 Codes
+
+```py
 ID : demo
 Password : demo
 
-```py
 # models.py
 class Parts(models.Model):
     class Meta:
