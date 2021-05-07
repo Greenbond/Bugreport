@@ -37,5 +37,11 @@ class PartAdmin(admin.ModelAdmin):
 
 admin.site.register(Parts, PartAdmin)
 ```
-This is the screenshot for it.
+
+
+<h4>Screenshot  'Primary_key = True'</h4>
 <img width="1585" alt="スクリーンショット 2021-05-07 18 54 46" src="https://user-images.githubusercontent.com/66260097/117432937-e0065080-af65-11eb-9f69-a3046ee579e4.png">
+
+
+<h4>Screenshot 'Primary_key = False'</h4>
+<img width="1680" alt="スクリーンショット 2021-05-07 19 11 19" src="https://user-images.githubusercontent.com/66260097/117434896-307ead80-af68-11eb-909c-6352770f50e4.png">
