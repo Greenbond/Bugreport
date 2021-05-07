@@ -6,8 +6,12 @@ if you set the primary key to False the dupulicate will not happen.
 Codes
 
 ```py
-ID : demo
-Password : demo
+-------------------
+Login Account
+
+ID == demo
+Password == demo
+-------------------
 
 # models.py
 class Parts(models.Model):
