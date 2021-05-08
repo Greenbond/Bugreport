@@ -19,5 +19,3 @@ class TestPartAdmin(admin.ModelAdmin):
 admin.site.register(Parts, PartAdmin)
 admin.site.register(TestPart, TestPartAdmin)
 
-
-
