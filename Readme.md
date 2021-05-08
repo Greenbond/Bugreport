@@ -1,3 +1,5 @@
+for Django ticket #32728
+
 Hello, This Project is made to report a suspicious bug to Django.
 
 In the admin page the editable column will dupulicate when that field`s primary key is set to True.
